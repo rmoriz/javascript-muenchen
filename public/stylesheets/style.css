@@ -1,0 +1,203 @@
+body {
+  font-size:   100%;
+  line-height: 1.125em;
+  font-family: "Helvetica Neue", Helvetica, Arial;  
+  background: #E5E5E5 url(/images/topbg.png) repeat-x;
+}
+
+a {
+  color: #1a3d85;
+}
+
+a:hover {
+  color: #004CEB;
+}
+
+a:visited {
+  color: #1a3d85;
+}
+
+#logo {
+  margin: 20px 0 10px 0;
+  display: inline-block;
+  text-indent:-5000px;
+  background: url(/images/logo.png);
+  width: 300px;
+  height: 84px;
+}
+
+.navigation {
+  margin-top: 10px;
+  background-color: #FEFEFE;
+  font-weight: 600;
+  font-size:  1.2em;
+  color: #1a3d85;
+  padding: 15px 0;
+
+  box-shadow: 0px 0px 4px #1a3d85;
+  -webkit-box-shadow: 0px 0px 4px #1a3d85;
+  -moz-box-shadow: 0px 0px 4px #1a3d85;
+  
+}
+
+.navigation ul {
+  margin-left: 20px;
+}
+.navigation li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #1a3d85;
+}
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  padding: 20px 0;
+  background-color: #E3ECFF;
+  min-height: 400px;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  border-left: 1px solid #E2E2E2;
+  border-right: 1px solid #BCBCBC;
+  box-shadow: 0px 3px 10px #1a3d85;
+  -webkit-box-shadow: 0px 3px 10px #1a3d85;
+  -moz-box-shadow: 0px 3px 10px #1a3d85; 
+
+}
+
+#content p, #content table, #content ul {
+  margin: 0 20px;
+}
+
+#content h1, #content h2, #content h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial;  
+  font-weight: 200;
+  color: #b72106;
+  margin-left: 20px;
+  margin-bottom: 0.4em;
+  display: inline-block;
+
+}
+#content h1 {
+  font-size: 2.1em;
+  font-weight: 500;
+  color: #1a3d85;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#content h2 {
+  font-size: 1.0em;
+  font-weight: 400;
+  border-bottom: 3px solid #1a3d85;
+}
+
+#content h4.sponsors, #content h4.twitter {
+  font-weight: 800;
+  font-size: 1em;
+  color: #8A8A8A;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #8A8A8A;
+}
+
+#content h4.sponsors {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+#content p {
+  margin-bottom: 0.85em;
+  color: #374051;
+}
+
+#content table {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-bottom: 0.85em;
+}
+
+#content th {
+  text-align: left;
+  min-width: 150px;
+}
+
+
+.footer {
+  text-align: right;
+  font-weight: 500;
+  padding: 10px 0px;
+  background-color: #1a3d85;
+  box-shadow:         0px 5px 10px #1a3d85;
+  -webkit-box-shadow: 0px 5px 10px #1a3d85;
+  -moz-box-shadow:    0px 5px 10px #1a3d85;
+  margin-bottom: 20px;
+}
+
+.footer li {
+  display: inline;
+  padding: 0 15px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #E4E7E4;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Twitter Box */
+.twtr-tweet-text p {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1.2em;
+}
+
+#twtr-widget-1 h3 {
+  margin-left:  10px !important;
+  margin-top:    5px !important;
+  font-size:   1.4em !important;
+  font-weight: 600   !important;
+}
+
+#twtr-widget-1 h4 {
+  display: none;
+}
+  
+img.twtr-profile-img {
+  border: 2px solid #999 !important;
+}
+
+#twtr-widget-1 {
+  margin-bottom: 20px;
+}
+
+.image_border {
+  border: 1px solid #CECECE;
+}
+
+.sponsor {
+  padding: 10px 30px;
+  vertical-align: middle;
+}
+
+.center {
+  text-align: center;
+}
+
+.vortraege .datum {
+  width: 100px;
+}
+
+.vortraege .thema {
+  width: 450px;
+  margin-right: 20px;
+}
+
+

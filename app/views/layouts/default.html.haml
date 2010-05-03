@@ -1,0 +1,52 @@
+!!! XML
+!!! 1.1
+%html{ "xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %title
+      = yield_content :title 
+      | Javascript München User Group (MucJS)
+    = stylesheet_link_tag 'reset', '960', 'style', 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/smoothness/jquery-ui.css'
+    = yield_content :include
+    %meta{:name => "description",              :content => "JavaScript User Group München/Munich"}
+    %meta{:name => "google-site-verification", :content => "I8Sz7KxdUDoTGMdYZ0tmw_Z83h-kJGutTFSYZ8HKh20"}
+    %meta{:name => "msvalidate.01",            :content => "C21BED14EAAA25D7D6DC6C540BAE48D0"}
+    %meta{:name => "y_key",                    :content => "18267712d774e2f8"}
+  %body
+    .container_12
+      .grid_5#header
+        %h1 
+          %a#logo{:href => '/'} Javascript User Group München
+      .grid_5.omega
+      .grid_11.push_1.alpha.omega.ui-corner-top.navigation
+        %ul
+          %li 
+            %a{:href => '/'} Start
+          %li 
+            %a{:href => '/mailingliste'} Mailingliste
+          %li
+            %a{:href => '/kontakt'} Kontakt
+  
+      .grid_11.push_1.alpha#content
+        = yield
+      .grid_11.push_1.footer.alpha.ui-corner-bottom
+        %ul
+          %li 
+            %a{:href => 'http://github.com/rmoriz/javascript-muenchen'} Quellcode
+          %li 
+            %a{:href => '/kontakt'} Kontakt
+      .grid_6.push_1
+        = facebook_helper
+    :plain
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js" type="text/javascript"></script>
+    = javascript_include_tag 'application'
+    :plain
+      <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      try {
+      var pageTracker = _gat._getTracker("UA-147139-15");
+      pageTracker._trackPageview();
+      } catch(err) {}</script>            

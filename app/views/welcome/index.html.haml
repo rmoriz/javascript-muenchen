@@ -1,0 +1,60 @@
+- content_for :title, "Herzlich Willkommen!"
+.grid_7
+  %h1
+    Hallo!
+  %p
+    AJAX, jQuery, v8, node.js und soviel mehr...
+    %br
+    JavaScript ist zur Zeit eine der spannensten Technologien.
+  %p
+    Gibt es daher Interesse an regelmäßigen Treffen und Erfahrungsaustausch in München? 
+  %p
+    Dann tragt Euch in die Mailingliste ein und macht mit!
+  %p
+    Viele Grüße,
+    %br
+    %a{:href => '/kontakt'} Roland 
+    
+.grid_3
+  %h4.twitter
+    Twitter:
+  :plain
+    <script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js"></script>
+    <script type="text/javascript">
+    new TWTR.Widget({
+      version: 2,
+      type: 'profile',
+      rpp: 3,
+      interval: 6000,
+      width: 250,
+      height: 300,
+      theme: {
+        shell: {
+          background: '#C9DBFF',
+          color: '#474747'
+        },
+        tweets: {
+          background: '#C9DBFF',
+          color: '#272727',
+          links: '#1a3d85'
+        }
+      },
+      features: {
+        scrollbar: false,
+        loop: false,
+        live: false,
+        hashtags: true,
+        timestamp: true,
+        avatars: false,
+        behavior: 'all'
+      }
+    }).render().setUser('mucjs').setFooterText('Folge uns auf Twitter!').start();
+    </script>
+.grid_11
+  %h4.sponsors
+    Sponsoren:
+  %p
+    Raum-Sponsoren für unser erstes Treffen gesucht — Bitte bei 
+    %a{:href => '/kontakt'} Roland 
+    melden.
+
