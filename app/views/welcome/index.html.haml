@@ -49,12 +49,25 @@
         behavior: 'all'
       }
     }).render().setUser('mucjs').setFooterText('Folge uns auf Twitter!').start();
-    </script>
-.grid_11
+    </script>    
+.grid_6
+  %h4.sponsors
+    Auf der Mailingliste anmelden:
+  %p
+    %a{:href => 'http://groups.google.de/group/mucjs/'}
+      %img#googlegroups{:src => 'http://groups.google.de/intl/en/images/logos/groups_logo.gif', :alt => 'Google Groups'}
+  %form{:action => 'http://groups.google.de/group/mucjs/boxsubscribe'}
+    %p
+      %label{:for => 'email'} 
+        E-Mail Adresse: 
+      %input#focus{:type => 'text', :name => 'email'}
+      %button.awesome.red
+        Abonnieren
+.grid_4
   %h4.sponsors
     Sponsoren:
   %p
-    Raum-Sponsoren für unser erstes Treffen gesucht — Bitte bei 
+    Raum-Sponsoren für unsere Treffen gesucht — Bitte bei 
     %a{:href => '/kontakt'} Roland 
     melden.
 
